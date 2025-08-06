@@ -38,8 +38,8 @@
           type: image
           mode: pull
           protocol: simplestreams
-          server: https://images.linuxcontainers.org
-          alias: ubuntu/jammy
+          server: https://cloud-images.linuxcontainers.org
+          alias: ubuntu:22.04
         profiles: ["default"]
         wait_for_ipv4_addresses: true
 
